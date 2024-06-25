@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: rgb(33, 33, 33);
+    color: wheat;
+    font-family: system-ui;
+}
+
+.Cruds{
+    width: 80%;
+    margin: auto;
+
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.head p{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #606060;
+    margin: 4px 0px;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+}
+input:focus{
+    background: rgb(48, 48, 48);
+    transform: scale(1);
+    transition: 0.5s;
+    color: white;
+}
+
+.price input{
+
+    width: 20%;
+    
+    
+}
+#total{
+    background: rgb(144, 0, 0);
+    padding: 18px 19px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+    border-radius: 4px;
+}
+#total::before{
+    content: 'Total  :  ';
+}
+button{
+    width: 100%;
+    padding: 7px 7px;
+    /* height: 30px; */
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.btnsearch{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btnsearch button{
+    width: 45%;
+
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+table th{
+    text-transform: uppercase;
+
+}
+th,td{
+    padding: 5px;
+
+}
+#delateall{
+    margin: 20px px;    
+}
+.Delateme{
+    background-color: #ea1345;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 13px 25px;
+    border-radius: 40px;
+    transition: .3s;
+    width: 50%;
+    margin-left: 300px;
+}
+.Delateme:hover{
+    background-color: transparent;
+    border: 1px solid #ea1345;
+    cursor: pointer;
+}
+
+
+.borderforall{
+
+    width: 1400px;
+    height: 1000px;
+    padding: 20px 100px;
+    margin: auto;
+    border: 1px solid #ffffff ;
+
+}
+.searchme{
+    width: 30%;
+    margin-left: 840px;
+    padding: 20px;
+}
+.searchme:focus{
+    background: rgb(48, 48, 48);
+    transform: scale(1);
+    
+    transition: 0.5s;
+    color: #ffffff;
+    
+}
+.classm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
